@@ -6,4 +6,7 @@ return [
     'senderName' => 'Example.com mailer',
     'user.passwordResetTokenExpire' => 3600,
     'user.passwordMinLength' => 8,
+    'elasticsearch' => [
+        '192.168.163.128:9200'
+    ],
 ];
